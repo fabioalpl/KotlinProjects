@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">dicaspt01</string>
+    <string name="adulto_lbl">Adulto</string>
+    <string name="btnEnviar">Enviar</string>
+    <string name="peso">Peso em KG</string>
+    <string name="idoso_lbl">Idoso</string>
+    <string name="adicionar_nova_activity">Adicionar nova Tela</string>
+</resources>

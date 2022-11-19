@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">CalculoIMC</string>
+    <string name="adulto_lbl">Adulto</string>
+    <string name="btnEnviar">Enviar</string>
+    <string name="peso">Peso em KG</string>
+    <string name="idoso_lbl">Idoso</string>
+    <string name="altura">Altura</string>
+    <string name="calcular_imc">Calcular IMC</string>
+    <string name="mensagem_inicial">Este aplicativo serve de referência, mas um médico deverá ser consultado!</string>
+</resources>
