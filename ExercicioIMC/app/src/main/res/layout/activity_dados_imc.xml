@@ -5,37 +5,47 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:layout_margin="@dimen/margin_padrao"
+    android:background="@color/corPadrao"
     tools:context=".ActivityDadosIMC">
-
-    <EditText
-        android:id="@+id/edtNome"
-        android:layout_width="0dp"
-        android:layout_height="48dp"
-        android:hint="Nome"
-        android:inputType="textAutoComplete"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"/>
 
     <EditText
         android:id="@+id/edtPeso"
         android:layout_width="0dp"
         android:layout_height="48dp"
+        android:layout_marginTop="4dp"
         android:hint="@string/peso"
         android:inputType="number"
+        android:maxLength="3"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/edtNome"/>
+        app:layout_constraintTop_toBottomOf="@id/edtNome" />
+
+    <EditText
+        android:id="@+id/edtNome"
+        android:layout_width="0dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="132dp"
+        android:hint="Nome"
+        android:inputType="textAutoComplete"
+        android:maxLength="100"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
         android:id="@+id/edtAltura"
         android:layout_width="0dp"
         android:layout_height="48dp"
+        android:layout_marginTop="4dp"
         android:hint="@string/altura"
         android:inputType="numberDecimal"
+        android:maxLength="4"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/edtPeso"/>
+        app:layout_constraintTop_toBottomOf="@id/edtPeso" />
 
     <RadioGroup
         android:id="@+id/rgClassificacaoIdade"
@@ -45,29 +55,38 @@
         android:orientation="horizontal"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/edtAltura">
+
         <RadioButton
-            android:text="@string/adulto_lbl"
-            android:layout_weight="1"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:id="@+id/rbAdulto"
-            />
-        <RadioButton
-            android:text="@string/idoso_lbl"
-            android:layout_weight="1"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
             android:id="@+id/rbIdoso"
-            />
+            android:layout_width="192dp"
+            android:layout_height="56dp"
+            android:layout_weight="1"
+            android:text="@string/idoso_lbl"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/edtAltura" />
+
+        <RadioButton
+            android:id="@+id/rbAdulto"
+            android:layout_width="187dp"
+            android:layout_height="56dp"
+            android:layout_weight="1"
+            android:text="@string/adulto_lbl"
+            app:layout_constraintEnd_toStartOf="@+id/rbIdoso"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/edtAltura" />
+
     </RadioGroup>
 
     <Button
         android:id="@+id/btnEnviar"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_marginBottom="228dp"
         android:text="@string/btnEnviar"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/rgClassificacaoIdade"/>
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

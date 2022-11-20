@@ -54,27 +54,27 @@ class ActivityDadosIMC : AppCompatActivity() {
 
         when(imc){
             in 0.0..18.5 -> {
-                resultado = "Abaixo do peso"
+                resultado = resources.getString(R.string.Abaixo_do_Peso)
                 alerta = R.color.blue.toString()
             }
             in 18.6..24.9 -> {
-                resultado = "Peso normal"
+                resultado = resources.getString(R.string.Peso_normal)
                 alerta = R.color.green.toString()
             }
             in 25.0..29.9 -> {
-                resultado = "Sobrepeso"
+                resultado = resources.getString(R.string.Sobrepeso)
                 alerta = R.color.yellow.toString()
             }
             in 30.0..34.9 -> {
-                resultado = "Obesidade grau I"
+                resultado = resources.getString(R.string.Obesidade_Grau_I)
                 alerta = R.color.orange.toString()
             }
             in 35.0..39.9 -> {
-                resultado = "Obesidade grau II"
+                resultado = resources.getString(R.string.Obesidade_Grau_II)
                 alerta = R.color.red.toString()
             }
             in 40.0..Double.MAX_VALUE -> {
-                resultado = "Obesidade grau III"
+                resultado = resources.getString(R.string.Obesidade_Grau_III)
                 alerta = R.color.redDark.toString()
             }
         }

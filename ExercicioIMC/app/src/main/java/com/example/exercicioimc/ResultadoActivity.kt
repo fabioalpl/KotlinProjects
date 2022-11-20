@@ -23,6 +23,7 @@ class ResultadoActivity : AppCompatActivity() {
         val text = intent.getStringExtra(ActivityDadosIMC.TAG_RESULTADO)
         val alerta = intent.getStringExtra(ActivityDadosIMC.TAG_ALERTA)
         val faixaEtaria = intent.getStringExtra(ActivityDadosIMC.TAG_FAIXA_ETARIA)
+        var conteudo = ""
 
         binding.txtResultado.text = text
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
@@ -36,8 +37,10 @@ class ResultadoActivity : AppCompatActivity() {
             binding.txtResultado.setBackgroundColor(resources.getColor(Integer.valueOf(alerta)))
         }
 
-        binding.txtPaciente.text = "Paciente: " + nome?.toString() ?: ""
-                                    " " + faixaEtaria.toString() + " encontra se: "
+        conteudo = "Paciente: " + nome?.toString() ?: ""
+
+        binding.txtPaciente.text = conteudo.toString() +
+                                    " - " + faixaEtaria.toString() + " encontra se: "
 
     }
 }

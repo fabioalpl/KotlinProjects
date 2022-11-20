@@ -7,15 +7,16 @@
     <string name="altura">Altura</string>
     <string name="calcular_imc">Calcular IMC</string>
     <string name="mensagem_inicial">Este aplicativo serve de referência, mas um médico deverá ser consultado!</string>
-    <string name="Abaixo_do_Peso">Você está abaixo do peso ideal. Isso pode ser apenas uma característica pessoal, mas também pode ser um sinal de
+    <string name="Abaixo_do_Peso">Abaixo do Peso! \nVocê está abaixo do peso ideal. Isso pode ser apenas uma característica pessoal, mas também pode ser um sinal de
 desnutrição ou de algum problema de saúde. Caso esteja perdendo peso sem motivo aparente, procure um médico.</string>
-    <string name="Sobrepeso">Atenção! Alguns quilos a mais já são suficientes para que algumas pessoas desenvolvam doenças associadas, como
+    <string name="Peso_normal">Peso Normal</string>
+    <string name="Sobrepeso">Sobrepeso \nAtenção! Alguns quilos a mais já são suficientes para que algumas pessoas desenvolvam doenças associadas, como
 diabetes e hipertensão. É importante rever seus hábitos. Procure um médico.</string>
-    <string name="Obesidade_Grau_I">Sinal de alerta! O excesso de peso é fator de risco para desenvolvimento de outros problemas de saúde. A boa notícia
+    <string name="Obesidade_Grau_I">Obesidade Grau I \nSinal de alerta! O excesso de peso é fator de risco para desenvolvimento de outros problemas de saúde. A boa notícia
 é que uma pequena perda de peso já traz benefícios à saúde. Procure um médico para definir o tratamento mais adequado
 para você</string>
-    <string name="Obesidade_Grau_II">Sinal vermelho! Ao atingir este nível de IMC, o risco de doenças associadas está entre alto e muito alto. Busque
+    <string name="Obesidade_Grau_II">Obesidade Grau II \nSinal vermelho! Ao atingir este nível de IMC, o risco de doenças associadas está entre alto e muito alto. Busque
 ajuda de um profissional de saúde; não perca tempo.</string>
-    <string name="Obesidade_Grau_III">Sinal vermelho! Ao atingir este nível de IMC, o risco de doenças associadas é muito alto. Busque ajuda de um
+    <string name="Obesidade_Grau_III">Obesidade Grau III \nSinal vermelho! Ao atingir este nível de IMC, o risco de doenças associadas é muito alto. Busque ajuda de um
 profissional de saúde; não perca tempo.</string>
 </resources>
