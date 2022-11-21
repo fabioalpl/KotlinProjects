@@ -18,6 +18,10 @@
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ActivityDadosIMC"
+                />
         </activity>
         <activity
             android:name=".ActivityDadosIMC"

@@ -4,7 +4,7 @@
     <string name="btnEnviar">Enviar Dados</string>
     <string name="peso">Peso em KG</string>
     <string name="idoso_lbl">Idoso</string>
-    <string name="altura">Altura</string>
+    <string name="altura">Altura em metros</string>
     <string name="calcular_imc">Calcular IMC</string>
     <string name="mensagem_inicial">Este aplicativo serve de referência, mas um médico deverá ser consultado!</string>
     <string name="Abaixo_do_Peso">Abaixo do Peso! \nVocê está abaixo do peso ideal. Isso pode ser apenas uma característica pessoal, mas também pode ser um sinal de
